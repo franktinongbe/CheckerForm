@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"defer></script>
+    <title>Form-checker</title> 
+</head>
+<body> 
+    <form action="inscription">
+    <div class="form">
+        <h2>Formulaire d'inscription</h2>
+        <img src="https://i0.wp.com/societecivilemedias.com/wp-content/uploads/2022/02/Dclic.jpg?fit=1080%2C635&ssl=1" alt="">
+        <img src="https://apf-francophonie.org/sites/default/files/2023-01/teaser-francophonie.svg" alt="">
+        <img src="https://i0.wp.com/societecivilemedias.com/wp-content/uploads/2022/02/Dclic.jpg?fit=1080%2C635&ssl=1" alt="">
+    <p> <br>Bienvenue au programme D-CLIC!</p>
+        <ul>
+            <br>
+        <label for="nom" class="nom">Nom</label>
+       <input id="nom" type="nom" placeholder="Nom"required >
+       <span class="message_erreur"></span>
+        <br>
+        <br>
+        <label for="prenom" class="Prenoms">Prenoms</label>
+        <input id="prenom" type="text" placeholder="Prenoms" required>
+       <span class="message_erreur"></span>
+        <br>
+        <br>
+        <label for="date" class="">Date de Naissance</label>
+        <input id="date" type="date" placeholder="" required>
+       <span class="message_erreur"></span>
+        <br>
+        <br>
+        <label for="tel" class="Numero">Numero de téléphone</label>
+        <input id="number" type="tel" placeholder="01XXXXXXXX" pattern="[0-9]{10}"required><span ></span>
+       
+        <br>
+        <br>
+        <label for="sms">Motivation</label>
+        <br>
+        <textarea name="Message" id="msg" cols="10" rows="5" placeholder="Saisissez votre texte" required></textarea>
+       <span class="message_erreur"></span>
+       <label for="instruction">Veuillez accepter notre politique de confidentialité: </label>
+       <input type="checkbox" name="instruction" required="instruction">
+        <br>
+        <br>
+        <button><strong><i class="fas fa-user"></i> S'inscrire </strong></button>
+        <br>
+        <br>
+        <img src="https://www.diplomacy.edu/wp-content/uploads/2021/11/Logo-OIF.jpg" alt="">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuXqYwcd1ekCTUQDwGAhtumyFmdET1wvXRWQ&s" alt="">
+        <img src="https://evenements.lepoint.fr/wp-content/uploads/Epitech.png" alt="">
+        </ul>
+    </div>
+    </div>
+    <h5>Veuillez remplir tous les champs! <br>
+        Vous avez un compte? <a href="">Se connecter</a></h5> 
+    </form>
+    <!-- affichage de l'inscription -->
+     <br>
+     <br>
+     <br>
+     <div class="Affichage">
+     <p>Nom:</p>
+     <p>Prenoms:</p>
+     <p>Date de Naissance:</p>
+     <p>Téléphone:</p>
+     <p>Votre reponse:</p>
+    </div>
+</body>
+</html>
