@@ -1,11 +1,11 @@
  document.getElementById("inscription").addEventListener("submit", function(event){
 event.preventDefault();
 
-const nom=document.getElementById("nom").value .trim();
-const prenom=document.getElementById("prenom").value .trim();
+const nom=document.getElementById("nom").value;
+const prenom=document.getElementById("prenom").value;
 const date=document.getElementById("nom").value;
-const number=document.getElementById("number").value .trim();
-const motivation=document.getElementById("motivation").value .trim();
+const number=document.getElementById("number").value;
+const motivation=document.getElementById("motivation").value;
 
 const birthYear= new date(date).getFullYear();
 const currentYear= new date().getFullYear();
