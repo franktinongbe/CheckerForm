@@ -73,18 +73,3 @@ white-space: pre-wrap;
 #result{
     display: none;
 }
-
-@media screen and (max-width: 800px){
-    body {
-        flex-direction: column;
-        height: auto;
-    }
-    .form{
-        height: 50px;
-    }
-}
-@media screen and (min-width:800px) and (max-width: 1000px){
-    body{
-        color: red
-    };
-}
