@@ -61,3 +61,16 @@ button:hover{
 .affichage p {
     color: black;
 }
+
+@media screen and (max-width: 800px){
+    body {
+        flex-direction: column;
+        height: auto;
+    }
+    .form{
+        height: 50px;
+    }
+}
+@media screen and (min-width:800px) and ((max-width: 1000px){
+    color: red;
+}
