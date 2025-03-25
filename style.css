@@ -1,0 +1,75 @@
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0;
+    margin: 30%;
+}
+h2 {
+    color: white;
+    text-align: center;
+}
+p{
+    color: black;
+    font-weight: bold;
+}
+.forme{
+    background-color: rgba(15, 12, 59, 0.74);
+    display: block;
+    align-items: center;
+    padding:3%;
+    margin: auto;
+}
+input, textarea { 
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label{
+    color: #ddd;
+}
+img{
+    width: 30%;
+    height: 30%;
+}
+h5 a{
+    color: blue;
+}
+button{
+   background-color: rgb(241, 241, 241);
+   color: rgba(38, 18, 87, 0.74);
+   padding: 10px 20px;
+   border: none;
+   border-radius: 9px;
+   transition: background-color 0.3s ease;
+   display: block;
+   margin: 0 auto;
+   height: 60px;
+   width: 200px;
+}
+button:hover{
+    background-color: rgb(48, 19, 117);
+    transform: scaleX(1.5);
+    box-shadow: 0 2px 4px rgba(243, 243, 242, 0.74);
+    color: bisque;
+    cursor: pointer;
+}
+.form p{
+    color: rgb(187, 255, 1);
+    text-align: center;
+}
+.affichage p {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+#result p{
+word-wrap: break-word;
+white-space: pre-wrap;
+}
+#result{
+    display: none;
+}
